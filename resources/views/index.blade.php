@@ -8,14 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<form action="{{ route('calculator.age') }}" method="get">
-    @csrf
-    Ngay sinh:
-    <input type="date" name="birthday">
-    <button type="submit">Tinh</button>
-</form>
-@if(isset($age))
-    Tuổi của bạn là: {{ $age }}
-@endif
+<a href="{{ route('users.index') }}">Danh sach nguoi dung</a>
 </body>
 </html>
