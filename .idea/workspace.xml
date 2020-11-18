@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c78e25-f6dd-4fce-8606-e9ac9194cea7" name="Default Changelist" comment="" />
+    <list default="true" id="86c78e25-f6dd-4fce-8606-e9ac9194cea7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Repositories/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Services/UserService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -147,7 +159,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605498005696</updated>
-      <workItem from="1605498006754" duration="2774000" />
+      <workItem from="1605498006754" duration="3634000" />
+      <workItem from="1605669815603" duration="1477000" />
     </task>
     <servers />
   </component>
@@ -155,10 +168,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="386" y="261" key="NewPhpFileDialog" timestamp="1605584881260">
+    <state x="0" y="0" width="691" height="720" key="NewPhpClassDialog" timestamp="1605670963422">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="386" y="261" key="NewPhpFileDialog/0.0.1280.720@0.0.1280.720" timestamp="1605584881260" />
+    <state x="0" y="0" width="691" height="720" key="NewPhpClassDialog/0.0.1280.720@0.0.1280.720" timestamp="1605670963422" />
+    <state x="386" y="261" key="NewPhpFileDialog" timestamp="1605670124689">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="386" y="261" key="NewPhpFileDialog/0.0.1280.720@0.0.1280.720" timestamp="1605670124689" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1605584118970">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

@@ -9,5 +9,6 @@
 </head>
 <body>
 <a href="{{ route('users.index') }}">Danh sach nguoi dung</a>
+<a href="{{ route('auth.showFormRegister') }}">Register</a>
 </body>
 </html>

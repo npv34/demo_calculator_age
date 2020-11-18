@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('register',[AuthController::class,'showFormRegister'])->name('auth.showFormRegister');
+Route::post('register',[AuthController::class,'register'])->name('auth.register')->middleware('checkAge');
 
 Route::prefix('users')->group(function (){
     Route::get('/',[UserController::class,'index'])->name('users.index');
